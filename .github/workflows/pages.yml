@@ -44,12 +44,7 @@ jobs:
         id: pages
         uses: actions/configure-pages@v1
       - name: Build with Hugo
-        run: |
-          npm install |
-          npm i -g postcss-cli |
-          hugo \
-            --minify \
-            --baseURL "https://achatin.github.io"
+        run: npm i && hugo -D --gc
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
