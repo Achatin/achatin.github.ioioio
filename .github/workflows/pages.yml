@@ -45,6 +45,8 @@ jobs:
         uses: actions/configure-pages@v1
       - name: Build with Hugo
         run: |
+          npm install
+          npm i -g postcss-cli
           hugo \
             --minify \
             --baseURL "https://achatin.github.io"
