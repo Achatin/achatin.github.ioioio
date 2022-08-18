@@ -161,6 +161,7 @@
       "s_video_simple",
       "shadow-sm",
       "sm:mt-16",
+      "sm:mx-12",
       "space-x-2",
       "text-2xl",
       "text-3xl",
