@@ -1,0 +1,3 @@
+[submodule "themes/themes/showfolio"]
+	path = themes/themes/showfolio
+	url = https://github.com/apvarun/showfolio-hugo-theme.git
